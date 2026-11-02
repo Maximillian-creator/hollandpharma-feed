@@ -1,9 +1,25 @@
 # Holland Pharma feeds → Stock Sync
 
-Snoep en andere kleine artikelen van **Holland Pharma** (`klant.hollandpharma.nl`, de
-groothandel van de winkel in Beverwijk) als **drempelvullers** in de webshop. Er staat
-alleen in wat op `witte_lijst.txt` staat. Holland Pharma voert duizenden
-drogisterijartikelen, wij willen er een handvol.
+Snoep en thee van **Holland Pharma** (`klant.hollandpharma.nl`, de groothandel van de
+winkel in Beverwijk) als **drempelvullers** in de webshop. Er staat alleen in wat
+`witte_lijst.txt` noemt. Holland Pharma voert duizenden drogisterijartikelen.
+
+**Witte lijst (02-11):** hele merken.
+- Klepper&Klepper en Barkleys (snoep).
+- Pukka, Yogi Tea en Piramide (thee).
+
+Een `merk:`-regel wordt elke run uitgevouwen via het merkfilter van de zoekpagina: 25 per
+pagina, `&page=N`, uitgelogd leesbaar. Een nieuw product van dat merk komt dus vanzelf mee.
+Met `-artikelnr` sluit je een artikel uit.
+
+**STOP-regel:** komt een merk niet uit op het aantal dat Holland Pharma zelf noemt
+("N producten gevonden"), dan wordt er niets weggeschreven.
+
+**In de add-feed komen alleen producten die:**
+- een ingrediëntenlijst hebben (toonbank-displays vallen daardoor vanzelf weg);
+- leverbaar zijn (voorraadbalk 3 of hoger).
+
+**Tag `drempelvuller`:** alleen tot €15 adviesprijs. Cadeauverpakkingen komen wel in de winkel, niet in de winkelwagen-vuller.
 
 | Feed | Script | Output | Doel | Schema |
 |---|---|---|---|---|

@@ -69,9 +69,11 @@ def save_xml(root: ET.Element, pad: str) -> None:
 
 
 def main() -> None:
-    artikelen = hp.lees_witte_lijst()
-    print(f"Holland Pharma update-feed: {len(artikelen)} artikelen op de witte lijst")
-    gelezen = hp.haal_alles(artikelen)
+    s = hp.sessie()
+    print("Holland Pharma update-feed: witte lijst uitvouwen")
+    artikelen, _ = hp.artikelen(s)
+    print(f"   {len(artikelen)} artikelen in totaal")
+    gelezen = hp.haal_alles(artikelen, s)
     hp.rem(gelezen)
     root = bouw(artikelen, gelezen, vorige_regels(OUTPUT_FILE))
     import prijsrem

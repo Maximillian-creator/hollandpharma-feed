@@ -73,6 +73,30 @@
     <beschikbaarheid>voldoende voorraad</beschikbaarheid>
   </product>
   <product>
+    <sku>HP-201748</sku>
+    <barcode>8721008116310</barcode>
+    <title>Kadoverpakking algemeen (zoet, zout, honing) - 600 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>13.95</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>klepper-klepper-kadoverpakking-algemeen-zoet-zout-honing-600-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290647</sku>
+    <barcode>8717438745831</barcode>
+    <title>Chewing gum assorti 9x30 gram - 1 stuks</title>
+    <vendor>Barkleys</vendor>
+    <price>20.25</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-chewing-gum-assorti-9x30-gram-1-stuks</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
     <sku>HP-910220</sku>
     <barcode>8717438742083</barcode>
     <title>Chocolate mints cinnamon - 50 gram</title>
@@ -193,30 +217,6 @@
     <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
   </product>
   <product>
-    <sku>HP-290645</sku>
-    <barcode>8717438743349</barcode>
-    <title>Mints cinnamon &amp; apple - 50 gram</title>
-    <vendor>Barkleys</vendor>
-    <price>1.99</price>
-    <available>true</available>
-    <quantity>20</quantity>
-    <handle>barkleys-mints-cinnamon-apple-50-gram</handle>
-    <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
-  </product>
-  <product>
-    <sku>HP-290644</sku>
-    <barcode>8717438743318</barcode>
-    <title>Mints ginger &amp; orange - 50 gram</title>
-    <vendor>Barkleys</vendor>
-    <price>1.99</price>
-    <available>true</available>
-    <quantity>20</quantity>
-    <handle>barkleys-mints-ginger-orange-50-gram</handle>
-    <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
-  </product>
-  <product>
     <sku>HP-227611</sku>
     <barcode>8717438744377</barcode>
     <title>Liquorice pellets menthol - 16 gram</title>
@@ -265,6 +265,18 @@
     <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
   </product>
   <product>
+    <sku>HP-290645</sku>
+    <barcode>8717438743349</barcode>
+    <title>Mints cinnamon &amp; apple - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-cinnamon-apple-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
     <sku>HP-910222</sku>
     <barcode>8717438742236</barcode>
     <title>Mints cinnamon sugarfree - 15 gram</title>
@@ -273,6 +285,18 @@
     <available>true</available>
     <quantity>20</quantity>
     <handle>barkleys-mints-cinnamon-sugarfree-15-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290644</sku>
+    <barcode>8717438743318</barcode>
+    <title>Mints ginger &amp; orange - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-ginger-orange-50-gram</handle>
     <tags>vat-low</tags>
     <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
   </product>
@@ -299,5 +323,1877 @@
     <handle>barkleys-mints-peppermint-sugarfree-15-gram</handle>
     <tags>vat-low</tags>
     <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-932166</sku>
+    <barcode>5060519144133</barcode>
+    <title>After dinner bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-after-dinner-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-964868</sku>
+    <barcode>5060519148148</barcode>
+    <title>Breathe in bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-breathe-in-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904894</sku>
+    <barcode>5060229013798</barcode>
+    <title>Chamomile vanille/manuka honing bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>pukka-chamomile-vanille-manuka-honing-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-201172</sku>
+    <barcode>5063270129289</barcode>
+    <title>Citrus Yerba Green bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>pukka-citrus-yerba-green-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-283253</sku>
+    <barcode>5060519148551</barcode>
+    <title>Earl grey bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-earl-grey-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904979</sku>
+    <barcode>5060229013897</barcode>
+    <title>Elderberry &amp; echinacea bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>pukka-elderberry-echinacea-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-283481</sku>
+    <barcode>5060519148582</barcode>
+    <title>English breakfast bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-english-breakfast-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286264</sku>
+    <barcode>5063270112533</barcode>
+    <title>Herbal &amp; green tea collection bio - 30 st</title>
+    <vendor>Pukka</vendor>
+    <price>18.99</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>pukka-herbal-green-tea-collection-bio-30-st</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-916244</sku>
+    <barcode>5063270115572</barcode>
+    <title>Herbal collection bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>6.49</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-herbal-collection-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-916958</sku>
+    <barcode>5063270117064</barcode>
+    <title>Herbal favorites kilner bio - 30 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>17.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-herbal-favorites-kilner-bio-30-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-118184</sku>
+    <barcode>5063270111512</barcode>
+    <title>Lemon ginger touch of Manuka honey bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>pukka-lemon-ginger-touch-of-manuka-honey-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-906350</sku>
+    <barcode>5060229013804</barcode>
+    <title>Lemongrass &amp; ginger thee bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-lemongrass-ginger-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-288537</sku>
+    <barcode>5063270119327</barcode>
+    <title>Mint matcha green tea bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-mint-matcha-green-tea-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-970440</sku>
+    <barcode>5060519148735</barcode>
+    <title>Morning berry bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>pukka-morning-berry-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-201170</sku>
+    <barcode>5063270129616</barcode>
+    <title>Night Time Apple Chai - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>pukka-night-time-apple-chai-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-287377</sku>
+    <barcode>5063270111796</barcode>
+    <title>Night time berry bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-night-time-berry-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904856</sku>
+    <barcode>5060229013774</barcode>
+    <title>Night time thee bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>pukka-night-time-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-955317</sku>
+    <barcode>5060229013729</barcode>
+    <title>Original chai bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-original-chai-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-907946</sku>
+    <barcode>5060229013880</barcode>
+    <title>Peppermint &amp; licorice herb bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-peppermint-licorice-herb-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-117880</sku>
+    <barcode>5060519148261</barcode>
+    <title>Radiance bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-radiance-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904976</sku>
+    <barcode>5060229013668</barcode>
+    <title>Relax thee bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-relax-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904338</sku>
+    <barcode>5060229013972</barcode>
+    <title>Supreme matcha green tea bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>pukka-supreme-matcha-green-tea-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-906493</sku>
+    <barcode>5060229014009</barcode>
+    <title>Three chamomile bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-three-chamomile-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-906349</sku>
+    <barcode>5060229013767</barcode>
+    <title>Three ginger bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-three-ginger-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-906253</sku>
+    <barcode>5060229013750</barcode>
+    <title>Three mint bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>pukka-three-mint-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910241</sku>
+    <barcode>5060519140777</barcode>
+    <title>Tumeric active tea bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-tumeric-active-tea-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-906398</sku>
+    <barcode>5060229013743</barcode>
+    <title>Vanille chai tea bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>pukka-vanille-chai-tea-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-904855</sku>
+    <barcode>5060229013866</barcode>
+    <title>Wild apple &amp; cinnamon bio - 20 Zakjes</title>
+    <vendor>Pukka</vendor>
+    <price>5.79</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>pukka-wild-apple-cinnamon-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-281698</sku>
+    <barcode>4012824405981</barcode>
+    <title>Ashwagandha balance bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ashwagandha-balance-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661340</sku>
+    <barcode>4012824401228</barcode>
+    <title>Bedtime bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-bedtime-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-889592</sku>
+    <barcode>4012824402232</barcode>
+    <title>Bedtime rooibos vanille bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-bedtime-rooibos-vanille-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-287849</sku>
+    <barcode>4012824406667</barcode>
+    <title>Belly comfort bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-belly-comfort-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-285245</sku>
+    <barcode>4012824406292</barcode>
+    <title>Berry vanilla bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-berry-vanilla-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-717346</sku>
+    <barcode>4012824400627</barcode>
+    <title>Black chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-black-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661341</sku>
+    <barcode>4012824401013</barcode>
+    <title>Breathe deep bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-breathe-deep-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-745212</sku>
+    <barcode>4012824401471</barcode>
+    <title>Bright mood bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-bright-mood-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661344</sku>
+    <barcode>4012824401136</barcode>
+    <title>Calming bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-calming-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661329</sku>
+    <barcode>4012824400122</barcode>
+    <title>Choco bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-choco-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-826517</sku>
+    <barcode>4012824529359</barcode>
+    <title>Choco chai (los) bio - 90 gram</title>
+    <vendor>Yogi Tea</vendor>
+    <price>4.99</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>yogi-tea-choco-chai-los-bio-90-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-945095</sku>
+    <barcode>4012824491564</barcode>
+    <title>Christmas bio display - 1 displ</title>
+    <vendor>Yogi Tea</vendor>
+    <price>253.30</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-christmas-bio-display-1-displ</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-911119</sku>
+    <barcode>4012824404229</barcode>
+    <title>Christmas tea builtje bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-christmas-tea-builtje-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661320</sku>
+    <barcode>4012824400023</barcode>
+    <title>Classic chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-classic-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-960537</sku>
+    <barcode>4012824529267</barcode>
+    <title>Classic chai tea (los) bio - 90 gram</title>
+    <vendor>Yogi Tea</vendor>
+    <price>4.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-classic-chai-tea-los-bio-90-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-957335</sku>
+    <barcode>4012824404137</barcode>
+    <title>Curcuma / turmeric chai tea bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-curcuma-turmeric-chai-tea-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-959660</sku>
+    <barcode>4012824404496</barcode>
+    <title>Curcuma orange bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-curcuma-orange-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661336</sku>
+    <barcode>4012824401273</barcode>
+    <title>Detox bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-detox-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-826175</sku>
+    <barcode>4012824401846</barcode>
+    <title>Detox with lemon bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-detox-with-lemon-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661347</sku>
+    <barcode>4012824401525</barcode>
+    <title>Echinacea bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-echinacea-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-844989</sku>
+    <barcode>4012824404373</barcode>
+    <title>Finest selection 6 x 3 stuks bio - 18 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>4.49</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>yogi-tea-finest-selection-6-x-3-stuks-bio-18-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661337</sku>
+    <barcode>4012824401563</barcode>
+    <title>Forever young bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-forever-young-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-826174</sku>
+    <barcode>4012824401792</barcode>
+    <title>Ginger bio - 17 zk</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ginger-bio-17-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661333</sku>
+    <barcode>4012824401310</barcode>
+    <title>Ginger lemon munt bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ginger-lemon-munt-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-826173</sku>
+    <barcode>4012824401747</barcode>
+    <title>Ginger orange vanilla bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ginger-orange-vanilla-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661345</sku>
+    <barcode>4012824401440</barcode>
+    <title>Ginkgo bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ginkgo-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661349</sku>
+    <barcode>4012824401884</barcode>
+    <title>Green balance bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-balance-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-717347</sku>
+    <barcode>4012824400726</barcode>
+    <title>Green chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661350</sku>
+    <barcode>4012824401938</barcode>
+    <title>Green energy bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-energy-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661352</sku>
+    <barcode>4012824401983</barcode>
+    <title>Green jasmine bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-jasmine-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-876382</sku>
+    <barcode>4012824402027</barcode>
+    <title>Green tea ginger lemon bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-tea-ginger-lemon-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-835880</sku>
+    <barcode>4012824403246</barcode>
+    <title>Green tea matcha lemon bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-green-tea-matcha-lemon-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-289305</sku>
+    <barcode>4012824406926</barcode>
+    <title>Happy farming bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-happy-farming-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290088</sku>
+    <barcode>4012824492943</barcode>
+    <title>Happy farming display bio - 1 Display</title>
+    <vendor>Yogi Tea</vendor>
+    <price>255.49</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>yogi-tea-happy-farming-display-bio-1-display</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-792303</sku>
+    <barcode>4012824401693</barcode>
+    <title>Heartwarming bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-heartwarming-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661325</sku>
+    <barcode>4012824400078</barcode>
+    <title>Himalaya bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-himalaya-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-835881</sku>
+    <barcode>4012824403192</barcode>
+    <title>Immune support bio - 17 zk</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-immune-support-bio-17-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-956477</sku>
+    <barcode>4012824403765</barcode>
+    <title>Inner harmony bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-inner-harmony-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661331</sku>
+    <barcode>4012824400177</barcode>
+    <title>Licorice Egyptian bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-licorice-egyptian-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-826172</sku>
+    <barcode>4012824400313</barcode>
+    <title>Licorice mint bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-licorice-mint-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-792300</sku>
+    <barcode>4012824400511</barcode>
+    <title>Lime mint bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-lime-mint-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227448</sku>
+    <barcode>4012824405356</barcode>
+    <title>Maca chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-maca-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290462</sku>
+    <barcode>4012824406544</barcode>
+    <title>Mango chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-mango-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661339</sku>
+    <barcode>4012824401365</barcode>
+    <title>Men's tea bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-men-s-tea-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-283470</sku>
+    <barcode>4012824406049</barcode>
+    <title>Mental clarity bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-mental-clarity-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-285244</sku>
+    <barcode>4012824406360</barcode>
+    <title>Morning energy bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-morning-energy-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-960686</sku>
+    <barcode>4012824404816</barcode>
+    <title>Natural balance bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-natural-balance-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-289306</sku>
+    <barcode>4012824406940</barcode>
+    <title>New inspiration bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-new-inspiration-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-289316</sku>
+    <barcode>4012824492905</barcode>
+    <title>New inspiration bio display - 1 Display</title>
+    <vendor>Yogi Tea</vendor>
+    <price>255.49</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>yogi-tea-new-inspiration-bio-display-1-display</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-936983</sku>
+    <barcode>4012824723818</barcode>
+    <title>Paper Gift Box Favourite selection bio - 30 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>16.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-paper-gift-box-favourite-selection-bio-30-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-957955</sku>
+    <barcode>4012824404250</barcode>
+    <title>PH Balance bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-ph-balance-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-889591</sku>
+    <barcode>4012824402188</barcode>
+    <title>Positive energy bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-positive-energy-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-964403</sku>
+    <barcode>4012824405462</barcode>
+    <title>Pumpkin chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-pumpkin-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-201536</sku>
+    <barcode>4012824492509</barcode>
+    <title>Pumpkin chai display bio - 0</title>
+    <vendor>Yogi Tea</vendor>
+    <price>255.49</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>yogi-tea-pumpkin-chai-display-bio-0</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-964404</sku>
+    <barcode>4012824492240</barcode>
+    <title>Pumpkin chai mix bio display - 1 Display</title>
+    <vendor>Yogi Tea</vendor>
+    <price>242.99</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>yogi-tea-pumpkin-chai-mix-bio-display-1-display</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661332</sku>
+    <barcode>4012824400221</barcode>
+    <title>Rooibos bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-rooibos-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-871302</sku>
+    <barcode>4012824400771</barcode>
+    <title>Rose bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-rose-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-962905</sku>
+    <barcode>4012824405509</barcode>
+    <title>Soul balm bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-soul-balm-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-283273</sku>
+    <barcode>4012824406131</barcode>
+    <title>Star salutation bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>yogi-tea-star-salutation-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661334</sku>
+    <barcode>4012824401051</barcode>
+    <title>Stomach ease bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-stomach-ease-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-717348</sku>
+    <barcode>4012824400672</barcode>
+    <title>Sweet chai bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-sweet-chai-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-723941</sku>
+    <barcode>4012824400276</barcode>
+    <title>Sweet chili bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-sweet-chili-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-287848</sku>
+    <barcode>4012824406605</barcode>
+    <title>Tea tangy blood orange bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-tea-tangy-blood-orange-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-661343</sku>
+    <barcode>4012824401402</barcode>
+    <title>Throat comfort bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-throat-comfort-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-962904</sku>
+    <barcode>4012824405592</barcode>
+    <title>Tulsi relax thee bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-tulsi-relax-thee-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227867</sku>
+    <barcode>4012824526594</barcode>
+    <title>Turmeric chai bio - 90 gram</title>
+    <vendor>Yogi Tea</vendor>
+    <price>4.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-turmeric-chai-bio-90-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-721224</sku>
+    <barcode>4012824401600</barcode>
+    <title>Women's balance bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-women-s-balance-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-721225</sku>
+    <barcode>4012824401655</barcode>
+    <title>Women's energy bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-women-s-energy-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200150</sku>
+    <barcode>4012824724136</barcode>
+    <title>Yogi® Christmas Calendar Bio 2026 - 46,1 gram</title>
+    <vendor>Yogi Tea</vendor>
+    <price>11.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-yogi-christmas-calendar-bio-2026-46-1-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200916</sku>
+    <barcode>4012824407701</barcode>
+    <title>Yogi® Meno Harmony Bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-yogi-meno-harmony-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200917</sku>
+    <barcode>4012824407275</barcode>
+    <title>Yogi® Refresh &amp; Focus Bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-yogi-refresh-focus-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-201174</sku>
+    <barcode>4012824407213</barcode>
+    <title>Yogi® Spicy Strawberry Bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-yogi-spicy-strawberry-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200918</sku>
+    <barcode>4012824407336</barcode>
+    <title>Yogi® Sweet Dreams Bio - 17 Zakjes</title>
+    <vendor>Yogi Tea</vendor>
+    <price>3.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>yogi-tea-yogi-sweet-dreams-bio-17-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-845206</sku>
+    <barcode>8711812419974</barcode>
+    <title>Blaas en nierkruiden thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>piramide-blaas-en-nierkruiden-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909455</sku>
+    <barcode>8711812418205</barcode>
+    <title>Brandnetel thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>piramide-brandnetel-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200890</sku>
+    <barcode>8711812481490</barcode>
+    <title>Bright Day - 20 stuks</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-bright-day-20-stuks</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-288232</sku>
+    <barcode>8711812413088</barcode>
+    <title>Calming spirit bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>piramide-calming-spirit-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909496</sku>
+    <barcode>8711812421977</barcode>
+    <title>Citroenmelisse thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-citroenmelisse-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-288233</sku>
+    <barcode>8711812412944</barcode>
+    <title>Comfort warmth bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>piramide-comfort-warmth-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909618</sku>
+    <barcode>8711812419837</barcode>
+    <title>Detox thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-detox-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286636</sku>
+    <barcode>8711812412449</barcode>
+    <title>Dream time bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-dream-time-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-285337</sku>
+    <barcode>8711812409555</barcode>
+    <title>Droom zacht thee bio - 20 stuks</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-droom-zacht-thee-bio-20-stuks</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-947632</sku>
+    <barcode>8711812481261</barcode>
+    <title>Earl grey eko bio - 80 gram</title>
+    <vendor>Piramide</vendor>
+    <price>4.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-earl-grey-eko-bio-80-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909577</sku>
+    <barcode>8711812420642</barcode>
+    <title>Earl grey thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-earl-grey-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909089</sku>
+    <barcode>8711812421274</barcode>
+    <title>Engelse melange thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>piramide-engelse-melange-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909610</sku>
+    <barcode>8711812418342</barcode>
+    <title>Frisse start thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>piramide-frisse-start-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909792</sku>
+    <barcode>8711812419530</barcode>
+    <title>Frisse start zonder munt thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-frisse-start-zonder-munt-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-947636</sku>
+    <barcode>8711812481827</barcode>
+    <title>Gember citroen bio - 80 gram</title>
+    <vendor>Piramide</vendor>
+    <price>5.29</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-gember-citroen-bio-80-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909494</sku>
+    <barcode>8711812419950</barcode>
+    <title>Gember thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-gember-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-288230</sku>
+    <barcode>8711812412807</barcode>
+    <title>Golden spice bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>piramide-golden-spice-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909609</sku>
+    <barcode>8711812419738</barcode>
+    <title>Groene thee &amp; earl grey eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-earl-grey-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909178</sku>
+    <barcode>8711812420017</barcode>
+    <title>Groene thee &amp; jasmijn eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-jasmijn-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-947634</sku>
+    <barcode>8711812481544</barcode>
+    <title>Groene thee citroen bio - 80 gr</title>
+    <vendor>Piramide</vendor>
+    <price>5.29</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>piramide-groene-thee-citroen-bio-80-gr</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909608</sku>
+    <barcode>8711812419523</barcode>
+    <title>Groene thee eko original bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-eko-original-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909297</sku>
+    <barcode>8711812419660</barcode>
+    <title>Groene thee met citroen bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-met-citroen-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-840101</sku>
+    <barcode>8711812420789</barcode>
+    <title>Groene thee met gember en citroen bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-met-gember-en-citroen-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-908804</sku>
+    <barcode>8711812421557</barcode>
+    <title>Groene thee perzik vlierbloesem bio - 20 zk</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-perzik-vlierbloesem-bio-20-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909298</sku>
+    <barcode>8711812419882</barcode>
+    <title>Groene thee sencha bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-groene-thee-sencha-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909403</sku>
+    <barcode>8711812419387</barcode>
+    <title>Hertjes thee eko bio - 20 zk</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-hertjes-thee-eko-bio-20-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909441</sku>
+    <barcode>8711812418489</barcode>
+    <title>Kamille thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-kamille-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909427</sku>
+    <barcode>8711812420260</barcode>
+    <title>Kurkuma thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-kurkuma-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909739</sku>
+    <barcode>8711812418274</barcode>
+    <title>Lekker slapen thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-lekker-slapen-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909740</sku>
+    <barcode>8711812418557</barcode>
+    <title>Lindebloesem thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-lindebloesem-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286632</sku>
+    <barcode>8711812412869</barcode>
+    <title>Mindful clarity bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-mindful-clarity-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286637</sku>
+    <barcode>8711812412302</barcode>
+    <title>Natural energy bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-natural-energy-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-285338</sku>
+    <barcode>8711812409418</barcode>
+    <title>Paardenbloem thee bio - 20 stuks</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-paardenbloem-thee-bio-20-stuks</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909741</sku>
+    <barcode>8711812422189</barcode>
+    <title>Pepermunt thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-pepermunt-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-845017</sku>
+    <barcode>8711812419745</barcode>
+    <title>Pluk de dag mix thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-pluk-de-dag-mix-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286634</sku>
+    <barcode>8711812412586</barcode>
+    <title>Positive glow bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-positive-glow-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286635</sku>
+    <barcode>8711812412722</barcode>
+    <title>Pure serenity bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-pure-serenity-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909611</sku>
+    <barcode>8711812419806</barcode>
+    <title>Rooibos original thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>2.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-rooibos-original-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-908805</sku>
+    <barcode>8711812419554</barcode>
+    <title>Rooibos perzik sinaasappel thee bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-rooibos-perzik-sinaasappel-thee-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-947635</sku>
+    <barcode>8711812481681</barcode>
+    <title>Rooibos thee bio - 100 gr</title>
+    <vendor>Piramide</vendor>
+    <price>4.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-rooibos-thee-bio-100-gr</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909256</sku>
+    <barcode>8711812418410</barcode>
+    <title>Rozenbottel thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-rozenbottel-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909575</sku>
+    <barcode>8711812422042</barcode>
+    <title>Salie thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>piramide-salie-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909068</sku>
+    <barcode>8711812421830</barcode>
+    <title>Sterrenmix thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-sterrenmix-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-844348</sku>
+    <barcode>8711812419608</barcode>
+    <title>Sterrenmix zonder munt thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-sterrenmix-zonder-munt-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200898</sku>
+    <barcode>8711812481636</barcode>
+    <title>Throat Comfort - 20 stuks</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-throat-comfort-20-stuks</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-908781</sku>
+    <barcode>8711812420994</barcode>
+    <title>Tijm thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-tijm-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-840105</sku>
+    <barcode>8711812421069</barcode>
+    <title>Uiltjes thee rood eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>piramide-uiltjes-thee-rood-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909574</sku>
+    <barcode>8711812418977</barcode>
+    <title>Venkel thee eko bio - 20 zk</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-venkel-thee-eko-bio-20-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909495</sku>
+    <barcode>8711812419592</barcode>
+    <title>Verveine thee eko bio - 20 zk</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-verveine-thee-eko-bio-20-zk</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-958060</sku>
+    <barcode>8711812421205</barcode>
+    <title>Vosjes thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.19</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-vosjes-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-286633</sku>
+    <barcode>8711812413002</barcode>
+    <title>Warming chai bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.89</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-warming-chai-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-930316</sku>
+    <barcode>8711812420925</barcode>
+    <title>Weerstand thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.59</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>piramide-weerstand-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909919</sku>
+    <barcode>8711812420857</barcode>
+    <title>Witte thee original eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.79</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-witte-thee-original-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-947637</sku>
+    <barcode>8711812481964</barcode>
+    <title>Yerba mate bio - 100 gram</title>
+    <vendor>Piramide</vendor>
+    <price>5.29</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>piramide-yerba-mate-bio-100-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-909067</sku>
+    <barcode>8711812419189</barcode>
+    <title>Zoethout thee eko bio - 20 Zakjes</title>
+    <vendor>Piramide</vendor>
+    <price>3.39</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>piramide-zoethout-thee-eko-bio-20-zakjes</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
   </product>
 </products>

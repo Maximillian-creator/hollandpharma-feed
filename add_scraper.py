@@ -10,7 +10,8 @@ wie het in de handel brengt. Die komen hier letterlijk van het etiket (Holland P
 zodat het product ook zonder Nova-tekst klopt. Een product zonder ingrediëntenlijst
 komt NIET in de add-feed (wel in de update-feed): eerst het etiket, dan de winkel.
 
-- tags: `drempelvuller` (voor de winkelwagen-collectie), `hollandpharma`, btw-tag
+- tags: `drempelvuller` (tot DREMPEL_MAX, voor de winkelwagen-collectie), `hollandpharma`, btw-tag
+- niet leverbaar (voorraadbalk 1-2) → nog niet aanmaken; komt mee zodra het leverbaar is
 - published=false: Max zet ze zelf live na Nova en Themis
 - price = adviesprijs incl. btw; voorraad loopt via de update-feed
 """
@@ -23,6 +24,10 @@ import hp
 from scraper import save_xml
 
 OUTPUT_FILE = "hollandpharma_add_feed.xml"
+
+# Tot dit bedrag (adviesprijs incl. btw) krijgt een product de tag `drempelvuller` en komt het
+# in de winkelwagen-vuller. Duurdere artikelen (cadeauverpakkingen) komen wel in de winkel.
+DREMPEL_MAX = 15.00
 
 
 def beschrijving(p: dict) -> str:
@@ -45,9 +50,9 @@ def beschrijving(p: dict) -> str:
     return "\n".join(delen)
 
 
-def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, list[str]]:
+def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, list[str], list[str]]:
     root = ET.Element("products")
-    zonder_etiket = []
+    zonder_etiket, niet_leverbaar = [], []
     for artikel in artikelen:
         p = gelezen.get(artikel) or {}
         if not p or not p.get("avp"):
@@ -56,7 +61,11 @@ def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, li
             zonder_etiket.append(f"{artikel} {p['merk']} {p['omschrijving']}")
             continue
         leverbaar, _ = hp.beschikbaar(p)
-        tags = ", ".join(t for t in ("drempelvuller", "hollandpharma", p["artikelgroep"].lower(), hp.btw_tag(p)) if t)
+        if not leverbaar:
+            niet_leverbaar.append(f"{artikel} {p['merk']} {p['omschrijving']}")
+            continue
+        vuller = "drempelvuller" if p["avp"] <= DREMPEL_MAX else ""
+        tags = ", ".join(t for t in (vuller, "hollandpharma", p["artikelgroep"].lower(), hp.btw_tag(p)) if t)
         item = ET.SubElement(root, "product")
         for tag, waarde in (("handle", hp.handle(p)), ("title", hp.titel(p)), ("vendor", p["merk"]),
                             ("brand", p["merk"]), ("product_type", p["artikelgroep"]), ("tags", tags),
@@ -70,17 +79,21 @@ def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, li
                             ("compare_at_price", ""), ("available", "true" if leverbaar else "false"),
                             ("variant_title", "Default"), ("option1", "Default"), ("image", p["foto"])):
             ET.SubElement(variant, tag).text = waarde
-    return root, zonder_etiket
+    return root, zonder_etiket, niet_leverbaar
 
 
 def main() -> None:
-    artikelen = hp.lees_witte_lijst()
-    print(f"Holland Pharma add-feed: {len(artikelen)} artikelen op de witte lijst")
-    gelezen = hp.haal_alles(artikelen)
+    s = hp.sessie()
+    print("Holland Pharma add-feed: witte lijst uitvouwen")
+    artikelen, _ = hp.artikelen(s)
+    print(f"   {len(artikelen)} artikelen in totaal")
+    gelezen = hp.haal_alles(artikelen, s)
     hp.rem(gelezen)
-    root, zonder_etiket = bouw(artikelen, gelezen)
+    root, zonder_etiket, niet_leverbaar = bouw(artikelen, gelezen)
     for regel in zonder_etiket:
         print(f"   NIET in de add-feed (geen ingrediëntenlijst op de pagina): {regel}")
+    for regel in niet_leverbaar:
+        print(f"   (nog) niet in de add-feed, niet leverbaar bij Holland Pharma: {regel}")
     print(f"{len(root.findall('product'))} producten in de add-feed")
     save_xml(root, OUTPUT_FILE)
     print(f"https://raw.githubusercontent.com/Maximillian-creator/hollandpharma-feed/main/{OUTPUT_FILE}")

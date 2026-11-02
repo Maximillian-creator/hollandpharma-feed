@@ -72,8 +72,54 @@ def test_voorraadbalk():
 
 
 def test_witte_lijst_geldig():
-    lijst = hp.lees_witte_lijst(os.path.join(HIER, "witte_lijst.txt"))
-    assert len(lijst) == 25 and all(a.isdigit() for a in lijst)
+    merken, los, weg = hp.lees_witte_lijst(os.path.join(HIER, "witte_lijst.txt"))
+    assert merken == ["Klepper&Klepper", "Barkleys", "Pukka", "Yogi Tea", "Piramide"]
+    assert all(a.isdigit() for a in los) and all(a.isdigit() for a in weg)
+
+
+def test_witte_lijst_vormen(tmp_path):
+    pad = tmp_path / "wl.txt"
+    pad.write_text("merk: Yogi Tea  # thee\n932561\n-290647\n\n# commentaar\n", encoding="utf-8")
+    assert hp.lees_witte_lijst(str(pad)) == (["Yogi Tea"], ["932561"], {"290647"})
+    pad.write_text("Yogi Tea\n", encoding="utf-8")
+    import pytest
+    with pytest.raises(SystemExit):
+        hp.lees_witte_lijst(str(pad))
+
+
+def test_zoekpagina():
+    with open(os.path.join(HIER, "testdata", "zoek_pukka_p1.html"), "rb") as f:
+        tot, ids = hp.lees_zoekpagina(hp.decodeer(f.read()))
+    assert tot == 28 and len(ids) == 25 and ids[0] == "932166"
+    with open(os.path.join(HIER, "testdata", "zoek_pukka_p2.html"), "rb") as f:
+        tot2, ids2 = hp.lees_zoekpagina(hp.decodeer(f.read()))
+    assert tot2 == 28 and len(ids2) == 3 and not set(ids) & set(ids2)
+
+
+class _Nep:
+    """Nep-sessie die de twee opgeslagen Pukka-pagina's teruggeeft."""
+    def __init__(self, paginas):
+        self.paginas = paginas
+
+    def get(self, url, params=None, timeout=None):
+        class R:
+            pass
+        r = R()
+        r.content = self.paginas.get(params["page"], b"")
+        r.raise_for_status = lambda: None
+        return r
+
+
+def test_zoek_merk_alle_paginas_en_stop_bij_half():
+    import pytest
+    p = {}
+    for n in (1, 2):
+        with open(os.path.join(HIER, "testdata", f"zoek_pukka_p{n}.html"), "rb") as f:
+            p[n] = f.read()
+    hp.PAUZE_S = 0
+    assert len(hp.zoek_merk(_Nep(p), "Pukka")) == 28
+    with pytest.raises(SystemExit):
+        hp.zoek_merk(_Nep({1: p[1]}), "Pukka")       # pagina 2 weg → 25 van 28 → STOP
 
 
 def test_update_feed_houdt_onleesbare_regel_vast():
@@ -97,8 +143,8 @@ def test_rem_stopt_bij_te_veel_onleesbaar():
 
 def test_add_feed_bevat_etiket_en_geen_inkoop():
     gelezen = {a: hp.lees_product(pagina(a), a) for a in ("932561", "910213")}
-    root, zonder = add_scraper.bouw(["932561", "910213"], gelezen)
-    assert len(root.findall("product")) == 2 and zonder == []
+    root, zonder, niet = add_scraper.bouw(["932561", "910213"], gelezen)
+    assert len(root.findall("product")) == 2 and zonder == [] and niet == []
     k = root.find("product")
     assert k.findtext("published") == "false"
     assert "drempelvuller" in k.findtext("tags")
@@ -113,8 +159,18 @@ def test_add_feed_bevat_etiket_en_geen_inkoop():
 def test_add_feed_slaat_product_zonder_ingredienten_over():
     p = dict(hp.lees_product(pagina("932561"), "932561"))
     p.pop("ingredienten")
-    root, zonder = add_scraper.bouw(["932561"], {"932561": p})
+    root, zonder, _ = add_scraper.bouw(["932561"], {"932561": p})
     assert len(root.findall("product")) == 0 and len(zonder) == 1
+
+
+def test_add_feed_drempelvuller_tag_tot_15_en_niet_leverbaar_overslaan():
+    basis = hp.lees_product(pagina("932561"), "932561")
+    duur = dict(basis, avp=18.99)
+    op = dict(basis, artikel="1", balk=1)
+    root, _, niet = add_scraper.bouw(["932561", "2", "1"], {"932561": basis, "2": dict(duur, artikel="2"), "1": op})
+    tags = [el.findtext("tags") for el in root.iter("product")]
+    assert len(tags) == 2 and "drempelvuller" in tags[0] and "drempelvuller" not in tags[1]
+    assert len(niet) == 1
 
 
 def test_aroma_apostrof():

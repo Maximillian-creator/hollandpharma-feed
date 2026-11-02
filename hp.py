@@ -11,6 +11,9 @@ secrets nodig.
 
 Welke producten erin komen bepaalt `witte_lijst.txt` (keuze Max), niet de catalogus:
 Holland Pharma voert duizenden drogisterijartikelen, wij willen alleen de drempelvullers.
+De lijst kan hele merken noemen ('merk: Pukka'); die worden elke run via het merkfilter
+van de zoekpagina uitgevouwen (uitgelogd leesbaar, 25 per pagina), zodat een nieuw
+product van dat merk vanzelf meekomt.
 
 Tekencodering: de pagina is UTF-8, maar het blok Productinformatie komt er als
 Windows-1252 in ("Ingredi\\xebnten", "12-25\\xb0C"). `decodeer()` leest UTF-8 en valt per
@@ -51,19 +54,80 @@ def decodeer(ruw: bytes) -> str:
 
 # ── lezen ────────────────────────────────────────────────────────────────────
 
-def lees_witte_lijst(pad: str = WITTE_LIJST) -> list[str]:
-    """Artikelnummers, één per regel; alles na # is commentaar."""
-    uit = []
+def lees_witte_lijst(pad: str = WITTE_LIJST) -> tuple[list[str], list[str], set[str]]:
+    """(merken, losse artikelnummers, uitgesloten artikelnummers); alles na # is commentaar.
+
+        merk: Yogi Tea     → het hele merk, precies zoals in de merkenlijst van Holland Pharma
+        932561             → één artikel
+        -290647            → dit artikel nooit, ook niet via een merk
+    """
+    merken, los, weg = [], [], set()
     with open(pad, encoding="utf-8") as f:
         for regel in f:
-            nr = regel.split("#", 1)[0].strip()
-            if nr:
-                if not nr.isdigit():
-                    raise SystemExit(f"STOP: '{nr}' in {pad} is geen artikelnummer.")
-                uit.append(nr)
-    if len(uit) != len(set(uit)):
-        raise SystemExit(f"STOP: dubbel artikelnummer in {pad}.")
-    return uit
+            r = regel.split("#", 1)[0].strip()
+            if not r:
+                continue
+            if r.lower().startswith("merk:"):
+                merken.append(r[5:].strip())
+            elif r.startswith("-") and r[1:].strip().isdigit():
+                weg.add(r[1:].strip())
+            elif r.isdigit():
+                los.append(r)
+            else:
+                raise SystemExit(f"STOP: '{r}' in {pad} is geen artikelnummer of 'merk: …'-regel.")
+    if len(los) != len(set(los)) or len(merken) != len(set(merken)):
+        raise SystemExit(f"STOP: dubbele regel in {pad}.")
+    return merken, los, weg
+
+
+def lees_zoekpagina(pagina: str) -> tuple[int | None, list[str]]:
+    """(totaal volgens 'N producten gevonden', artikelnummers op deze pagina)."""
+    tot = re.search(r"(\d+) producten gevonden", pagina)
+    ids = list(dict.fromkeys(re.findall(r'<td align="right"><a href="/nl/assortiment/(\d+)/', pagina)))
+    return (int(tot.group(1)) if tot else None), ids
+
+
+def zoek_merk(s, merk: str) -> list[str]:
+    """Alle artikelnummers van één merk (merkfilter van de zoekpagina, 25 per pagina).
+
+    STOP als het merk niets oplevert of als de pagina's niet optellen tot het getal dat
+    Holland Pharma zelf noemt: een half merk mag de feed niet in (Stock Sync archiveert
+    wat verdwijnt).
+    """
+    alles, pagina_nr, totaal = [], 1, None
+    while pagina_nr <= 40:
+        r = s.get(f"{BASIS}/nl/assortiment/zoeken/", params={"brand": merk, "page": pagina_nr}, timeout=60)
+        r.raise_for_status()
+        tot, ids = lees_zoekpagina(decodeer(r.content))
+        totaal = tot if totaal is None else totaal
+        nieuw = [i for i in ids if i not in alles]
+        alles += nieuw
+        if not nieuw or (totaal is not None and len(alles) >= totaal):
+            break
+        pagina_nr += 1
+        time.sleep(PAUZE_S)
+    if not totaal or len(alles) != totaal:
+        raise SystemExit(f"STOP: merk '{merk}' gaf {len(alles)} artikelen, Holland Pharma noemt er "
+                         f"{totaal}. Merknaam veranderd of zoekpagina anders? Vorige feed blijft staan.")
+    return alles
+
+
+def artikelen(s, pad: str = WITTE_LIJST) -> tuple[list[str], dict[str, str]]:
+    """De witte lijst uitgevouwen: (artikelnummers, {artikelnr: merk zoals in de lijst})."""
+    merken, los, weg = lees_witte_lijst(pad)
+    uit, bron = [], {}
+    for merk in merken:
+        ids = zoek_merk(s, merk)
+        print(f"   merk {merk}: {len(ids)} artikelen")
+        for i in ids:
+            if i not in weg and i not in bron:
+                uit.append(i)
+                bron[i] = merk
+    for i in los:
+        if i not in weg and i not in bron:
+            uit.append(i)
+            bron[i] = ""
+    return uit, bron
 
 
 def _tekst(fragment: str) -> str:
@@ -208,8 +272,8 @@ def haal(s, artikel: str) -> dict:
     return {}
 
 
-def haal_alles(artikelen: list[str]) -> dict[str, dict]:
-    s = sessie()
+def haal_alles(artikelen: list[str], s=None) -> dict[str, dict]:
+    s = s or sessie()
     uit = {}
     for i, artikel in enumerate(artikelen, 1):
         uit[artikel] = haal(s, artikel)
