@@ -1,0 +1,38 @@
+name: Holland Pharma Add-feed
+
+# Nieuwe producten met etiketinformatie (add_scraper.py). Wekelijks, en meteen bij een
+# nieuwe witte lijst.
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["add_scraper.py", "hp.py", "witte_lijst.txt", ".github/workflows/add_feed.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dependencies
+        run: pip install -r requirements.txt pytest
+      - name: Tests
+        run: python -m pytest -q test_feed.py
+      - name: Add-feed draaien
+        run: python add_scraper.py
+      - name: XML committen en pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add hollandpharma_add_feed.xml
+          git diff --staged --quiet || git commit -m "🆕 Add-feed bijgewerkt: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
+          git push

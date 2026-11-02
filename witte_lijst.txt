@@ -1,0 +1,38 @@
+# Holland Pharma — welke artikelen in de feeds komen (keuze Max).
+# Eén artikelnummer per regel; alles na # is commentaar.
+# Voorstel 02-11-2026: drempelvullers voor de winkelwagen (AVP <= EUR 10).
+# Niet opgenomen: 201748 Klepper cadeauverpakking 600 g (AVP 13,95) en
+# 290647 Barkleys chewing gum 9x30 g (AVP 20,25) — te duur om een gat te vullen.
+
+# Klepper & Klepper — De beste drop ooit, 200 g (AVP 4,25)
+932561  # honing
+285382  # koffie
+914115  # laurier
+931885  # mildzout
+948467  # pittig zout
+931886  # volzoet
+
+# Barkleys — mints, 50 g (AVP 1,99)
+910220  # chocolate mints cinnamon
+910219  # chocolate mints mint
+910218  # classic mints aniseed
+910214  # classic mints cinnamon
+910217  # classic mints ginger
+910216  # classic mints liquorice
+910213  # classic mints peppermint
+910458  # classic mints spearmint
+910215  # classic mints wintergreen
+200475  # gourmet mints pepper & peach
+290645  # mints cinnamon & apple
+290644  # mints ginger & orange
+
+# Barkleys — liquorice pellets 16-20 g (AVP 1,52-1,99)
+227611  # menthol
+227612  # mint coated
+227610  # pure
+227613  # salmiak
+
+# Barkleys — suikervrij, 15 g (AVP 1,59)
+910222  # mints cinnamon sugarfree
+290643  # mints mini eucalyptus
+910221  # mints peppermint sugarfree

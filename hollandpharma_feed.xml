@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <sku>HP-932561</sku>
+    <barcode>8719326064444</barcode>
+    <title>De beste drop ooit honing - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-honing-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-285382</sku>
+    <barcode>8721008116044</barcode>
+    <title>De beste drop ooit koffie - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-koffie-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-914115</sku>
+    <barcode>8719327190661</barcode>
+    <title>De beste drop ooit laurier - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-laurier-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-931885</sku>
+    <barcode>8719326064413</barcode>
+    <title>De beste drop ooit mildzout - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-mildzout-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-948467</sku>
+    <barcode>8719327356722</barcode>
+    <title>De beste drop ooit pittig zout - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-pittig-zout-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-931886</sku>
+    <barcode>8719326064406</barcode>
+    <title>De beste drop ooit volzoet - 200 gram</title>
+    <vendor>Klepper &amp; Klepper</vendor>
+    <price>4.25</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>klepper-klepper-de-beste-drop-ooit-volzoet-200-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910220</sku>
+    <barcode>8717438742083</barcode>
+    <title>Chocolate mints cinnamon - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-chocolate-mints-cinnamon-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910219</sku>
+    <barcode>8717438742052</barcode>
+    <title>Chocolate mints mint - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-chocolate-mints-mint-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910218</sku>
+    <barcode>8717438741468</barcode>
+    <title>Classic mints aniseed - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-aniseed-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910214</sku>
+    <barcode>87313277</barcode>
+    <title>Classic mints cinnamon - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-cinnamon-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910217</sku>
+    <barcode>8717438742021</barcode>
+    <title>Classic mints ginger - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-ginger-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910216</sku>
+    <barcode>8717438741499</barcode>
+    <title>Classic mints liquorice - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-liquorice-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910213</sku>
+    <barcode>87313260</barcode>
+    <title>Classic mints peppermint - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-peppermint-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910458</sku>
+    <barcode>8717438743233</barcode>
+    <title>Classic mints spearmint - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-spearmint-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910215</sku>
+    <barcode>87313284</barcode>
+    <title>Classic mints wintergreen - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-classic-mints-wintergreen-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-200475</sku>
+    <barcode>8717438743370</barcode>
+    <title>Gourmet mints Pepper &amp; Peach - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-gourmet-mints-pepper-peach-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290645</sku>
+    <barcode>8717438743349</barcode>
+    <title>Mints cinnamon &amp; apple - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-cinnamon-apple-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290644</sku>
+    <barcode>8717438743318</barcode>
+    <title>Mints ginger &amp; orange - 50 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-ginger-orange-50-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227611</sku>
+    <barcode>8717438744377</barcode>
+    <title>Liquorice pellets menthol - 16 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-liquorice-pellets-menthol-16-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227612</sku>
+    <barcode>8717438744391</barcode>
+    <title>Liquorice pellets mint coated - 18 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.52</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>barkleys-liquorice-pellets-mint-coated-18-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227610</sku>
+    <barcode>8717438744353</barcode>
+    <title>Liquorice pellets pure - 16 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.99</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-liquorice-pellets-pure-16-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-227613</sku>
+    <barcode>8717438744414</barcode>
+    <title>Liquorice pellets salmiak - 20 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.52</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-liquorice-pellets-salmiak-20-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910222</sku>
+    <barcode>8717438742236</barcode>
+    <title>Mints cinnamon sugarfree - 15 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-cinnamon-sugarfree-15-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-290643</sku>
+    <barcode>8717438742274</barcode>
+    <title>Mints mini eucalypus - 15 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-mini-eucalypus-15-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+  <product>
+    <sku>HP-910221</sku>
+    <barcode>8717438742250</barcode>
+    <title>Mints peppermint sugarfree - 15 gram</title>
+    <vendor>Barkleys</vendor>
+    <price>1.59</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>barkleys-mints-peppermint-sugarfree-15-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+  </product>
+</products>
