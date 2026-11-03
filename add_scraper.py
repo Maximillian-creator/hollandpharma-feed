@@ -66,19 +66,22 @@ def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, li
             continue
         vuller = "drempelvuller" if p["avp"] <= DREMPEL_MAX else ""
         tags = ", ".join(t for t in (vuller, "hollandpharma", p["artikelgroep"].lower(), hp.btw_tag(p)) if t)
+        # Plat: één <product>-regel, geen geneste <variants>. Stock Sync leest een
+        # <variants> met precies één <variant> als los object en slaat die rij
+        # dan zonder melding over (Kala, 24-09-2026: 6 van 81 producten weg).
+        # Instellingen in Stock Sync zoals bij de andere feeds: variant-node leeg,
+        # variantgroep = handle, optie 1 = option1.
         item = ET.SubElement(root, "product")
         for tag, waarde in (("handle", hp.handle(p)), ("title", hp.titel(p)), ("vendor", p["merk"]),
                             ("brand", p["merk"]), ("product_type", p["artikelgroep"]), ("tags", tags),
                             ("published", "false"), ("btw", p["btw"]), ("description", beschrijving(p)),
                             ("ingredienten", p["ingredienten"]), ("bewaren", p.get("bewaren", "")),
-                            ("waarschuwingen", p.get("gebruik", ""))):
-            ET.SubElement(item, tag).text = waarde
-        ET.SubElement(ET.SubElement(ET.SubElement(item, "images"), "image"), "src").text = p["foto"]
-        variant = ET.SubElement(ET.SubElement(item, "variants"), "variant")
-        for tag, waarde in (("sku", hp.sku(p)), ("barcode", p["ean"]), ("price", f"{p['avp']:.2f}"),
+                            ("waarschuwingen", p.get("gebruik", "")),
+                            ("sku", hp.sku(p)), ("barcode", p["ean"]), ("price", f"{p['avp']:.2f}"),
                             ("compare_at_price", ""), ("available", "true" if leverbaar else "false"),
-                            ("variant_title", "Default"), ("option1", "Default"), ("image", p["foto"])):
-            ET.SubElement(variant, tag).text = waarde
+                            ("variant_title", "Default Title"), ("option1", "Default Title"),
+                            ("image", p["foto"])):
+            ET.SubElement(item, tag).text = waarde
     return root, zonder_etiket, niet_leverbaar
 
 

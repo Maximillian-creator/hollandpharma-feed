@@ -156,6 +156,16 @@ def test_add_feed_bevat_etiket_en_geen_inkoop():
     assert "inkoop" not in xml and "aip" not in xml
 
 
+def test_add_feed_is_plat():
+    # Stock Sync slaat een <variants> met één <variant> stil over (Kala 24-09).
+    gelezen = {a: hp.lees_product(pagina(a), a) for a in ("932561", "910213")}
+    root, _, _ = add_scraper.bouw(["932561", "910213"], gelezen)
+    assert root.find(".//variants") is None and root.find(".//images") is None
+    k = root.find("product")
+    assert k.findtext("sku") == "HP-932561" and k.findtext("price") == "4.25"
+    assert k.findtext("option1") == "Default Title" and k.findtext("image").endswith("/photo.jpg")
+
+
 def test_add_feed_slaat_product_zonder_ingredienten_over():
     p = dict(hp.lees_product(pagina("932561"), "932561"))
     p.pop("ingredienten")

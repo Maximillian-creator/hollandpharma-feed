@@ -86,7 +86,7 @@ Een product **zonder ingrediëntenlijst komt niet in de add-feed**.
 ## Stock Sync
 
 - **Update**: koppel op SKU (of barcode) en map `price`, `available` en `quantity`.
-- **Add**: kies "Add products", record-pad `/products/product`, varianten via `variants/variant`. Map geen voorraad, zoals bij Deltastar.
+- **Add**: kies "Add products", parent node `products.product[*]`, **variant-node leeg** (de feed is plat, één regel per product). Product-identificeerder `sku`, variantgroep `handle`, optie 1 `option1`. Map geen voorraad, zoals bij Deltastar.
 
 ## Lokaal
 
