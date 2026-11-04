@@ -523,10 +523,10 @@
     <vendor>Pukka</vendor>
     <price>5.79</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>pukka-night-time-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
   </product>
   <product>
     <sku>HP-955317</sku>
@@ -1555,10 +1555,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>piramide-brandnetel-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
   </product>
   <product>
     <sku>HP-200890</sku>
@@ -1735,10 +1735,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>piramide-golden-spice-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
   </product>
   <product>
     <sku>HP-909609</sku>
@@ -2155,10 +2155,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>piramide-weerstand-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
   </product>
   <product>
     <sku>HP-909919</sku>
