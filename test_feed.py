@@ -185,3 +185,12 @@ def test_add_feed_drempelvuller_tag_tot_15_en_niet_leverbaar_overslaan():
 
 def test_aroma_apostrof():
     assert hp._tekst("aroma&quot;s, glansmiddel") == "aroma's, glansmiddel"
+
+
+def test_soort_voor_filter():
+    assert add_scraper.soort({"artikelgroep": "Koffie/Thee"}) == "Thee"
+    assert add_scraper.soort({"artikelgroep": "Snoepgoed suikervrij"}) == "Snoep"
+    assert add_scraper.soort({"artikelgroep": "Vitaminen"}) == ""
+    gelezen = {a: hp.lees_product(pagina(a), a) for a in ("932561",)}
+    root, _, _ = add_scraper.bouw(["932561"], gelezen)
+    assert root.find("product").findtext("soort") == "Snoep"
