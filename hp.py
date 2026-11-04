@@ -296,3 +296,14 @@ def rem(gelezen: dict[str, dict], max_onleesbaar_pct: float = 20) -> None:
     if mis * 100 / n > max_onleesbaar_pct:
         raise SystemExit(f"STOP: {mis} van de {n} producten niet te lezen (> {max_onleesbaar_pct:.0f}%). "
                          "Vorige feed blijft staan.")
+
+
+def soort(p: dict) -> str:
+    """Filterwaarde voor Kleine extra's (metafield custom.soort, 04-11-2026).
+    Leeg bij een onbekende artikelgroep: dan liever geen filter dan een fout."""
+    groep = (p.get("artikelgroep") or "").lower()
+    if "thee" in groep:
+        return "Thee"
+    if "snoep" in groep:
+        return "Snoep"
+    return ""

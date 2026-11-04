@@ -51,7 +51,7 @@ def bouw(artikelen: list[str], gelezen: dict[str, dict], vorig: dict[str, ET.Ele
                             ("vendor", p["merk"]), ("price", f"{p['avp']:.2f}"),
                             ("available", "true" if leverbaar else "false"), ("quantity", str(aantal)),
                             ("handle", hp.handle(p)), ("tags", hp.btw_tag(p)),
-                            ("beschikbaarheid", p["beschikbaarheid"])):
+                            ("beschikbaarheid", p["beschikbaarheid"]), ("soort", hp.soort(p))):
             ET.SubElement(item, tag).text = waarde
     return root
 

@@ -50,15 +50,7 @@ def beschrijving(p: dict) -> str:
     return "\n".join(delen)
 
 
-def soort(p: dict) -> str:
-    """Filterwaarde voor Kleine extra's (metafield custom.soort, 04-11-2026).
-    Leeg bij een onbekende artikelgroep: dan liever geen filter dan een fout."""
-    groep = (p.get("artikelgroep") or "").lower()
-    if "thee" in groep:
-        return "Thee"
-    if "snoep" in groep:
-        return "Snoep"
-    return ""
+soort = hp.soort  # 04-11: in hp.py, want de bijwerk-feed geeft hem ook mee
 
 
 def bouw(artikelen: list[str], gelezen: dict[str, dict]) -> tuple[ET.Element, list[str], list[str]]:

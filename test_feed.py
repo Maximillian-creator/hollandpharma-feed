@@ -194,3 +194,10 @@ def test_soort_voor_filter():
     gelezen = {a: hp.lees_product(pagina(a), a) for a in ("932561",)}
     root, _, _ = add_scraper.bouw(["932561"], gelezen)
     assert root.find("product").findtext("soort") == "Snoep"
+
+
+def test_bijwerkfeed_geeft_soort_mee():
+    # Max mapte custom.soort ook in de bijwerk-koppeling (04-11): de kolom moet er dan zijn.
+    gelezen = {a: hp.lees_product(pagina(a), a) for a in ("932561",)}
+    root = scraper.bouw(["932561"], gelezen, {})
+    assert root.find("product").findtext("soort") == "Snoep"
