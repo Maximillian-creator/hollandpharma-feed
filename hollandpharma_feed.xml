@@ -6,11 +6,11 @@
     <title>De beste drop ooit honing - 200 gram</title>
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-honing-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -46,10 +46,10 @@
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-mildzout-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -72,10 +72,10 @@
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-volzoet-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -448,11 +448,11 @@
     <title>Herbal &amp; green tea collection bio - 30 st</title>
     <vendor>Pukka</vendor>
     <price>18.99</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>pukka-herbal-green-tea-collection-bio-30-st</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2204,10 +2204,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>piramide-salie-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2243,10 +2243,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>5</quantity>
     <handle>piramide-throat-comfort-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
