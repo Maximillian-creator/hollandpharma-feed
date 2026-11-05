@@ -6,11 +6,11 @@
     <title>De beste drop ooit honing - 200 gram</title>
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
-    <available>true</available>
-    <quantity>2</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-honing-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -1814,10 +1814,10 @@
     <vendor>Piramide</vendor>
     <price>3.19</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>piramide-engelse-melange-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
