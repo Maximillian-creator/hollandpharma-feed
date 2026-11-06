@@ -189,10 +189,10 @@
     <vendor>Barkleys</vendor>
     <price>1.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>barkleys-classic-mints-peppermint-50-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -2243,10 +2243,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>piramide-throat-comfort-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
