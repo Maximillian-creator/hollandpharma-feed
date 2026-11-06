@@ -1671,10 +1671,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-blaas-en-nierkruiden-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1684,10 +1684,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-brandnetel-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1709,11 +1709,11 @@
     <title>Calming spirit bio - 20 Zakjes</title>
     <vendor>Piramide</vendor>
     <price>3.89</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>piramide-calming-spirit-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1736,10 +1736,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-comfort-warmth-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1814,10 +1814,10 @@
     <vendor>Piramide</vendor>
     <price>3.19</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-engelse-melange-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1879,10 +1879,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-golden-spice-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1917,11 +1917,11 @@
     <title>Groene thee citroen bio - 80 gr</title>
     <vendor>Piramide</vendor>
     <price>5.29</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>piramide-groene-thee-citroen-bio-80-gr</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2204,10 +2204,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-salie-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2242,11 +2242,11 @@
     <title>Throat Comfort - 20 stuks</title>
     <vendor>Piramide</vendor>
     <price>3.89</price>
-    <available>true</available>
-    <quantity>2</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>piramide-throat-comfort-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2269,10 +2269,10 @@
     <vendor>Piramide</vendor>
     <price>3.19</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-uiltjes-thee-rood-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2334,10 +2334,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-weerstand-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2373,10 +2373,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-zoethout-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
 </products>
