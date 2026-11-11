@@ -163,10 +163,10 @@
     <vendor>Barkleys</vendor>
     <price>1.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>barkleys-classic-mints-ginger-50-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -904,10 +904,10 @@
     <vendor>Yogi Tea</vendor>
     <price>4.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-classic-chai-tea-los-bio-90-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1407,12 +1407,12 @@
   <product>
     <sku>HP-201536</sku>
     <barcode>4012824492509</barcode>
-    <title>Pumpkin chai display bio - 0</title>
+    <title>Pumpkin chai display bio - 1 Display</title>
     <vendor>Yogi Tea</vendor>
     <price>255.49</price>
     <available>false</available>
     <quantity>0</quantity>
-    <handle>yogi-tea-pumpkin-chai-display-bio-0</handle>
+    <handle>yogi-tea-pumpkin-chai-display-bio-1-display</handle>
     <tags>vat-low</tags>
     <beschikbaarheid>geen voorraad</beschikbaarheid>
     <soort>Thee</soort>
@@ -1723,10 +1723,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>piramide-citroenmelisse-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
