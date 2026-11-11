@@ -852,10 +852,10 @@
     <vendor>Yogi Tea</vendor>
     <price>4.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>2</quantity>
     <handle>yogi-tea-choco-chai-los-bio-90-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1775,10 +1775,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>piramide-droom-zacht-thee-bio-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1853,10 +1853,10 @@
     <vendor>Piramide</vendor>
     <price>5.29</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>piramide-gember-citroen-bio-80-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2022,10 +2022,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>piramide-kurkuma-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2256,10 +2256,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>piramide-tijm-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
