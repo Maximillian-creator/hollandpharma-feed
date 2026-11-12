@@ -59,10 +59,10 @@
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-pittig-zout-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -969,10 +969,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-echinacea-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -982,10 +982,10 @@
     <vendor>Yogi Tea</vendor>
     <price>4.49</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>yogi-tea-finest-selection-6-x-3-stuks-bio-18-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1775,10 +1775,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-droom-zacht-thee-bio-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1827,10 +1827,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-frisse-start-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2229,11 +2229,11 @@
     <title>Sterrenmix zonder munt thee eko bio - 20 Zakjes</title>
     <vendor>Piramide</vendor>
     <price>3.59</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>piramide-sterrenmix-zonder-munt-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2242,11 +2242,11 @@
     <title>Throat Comfort - 20 stuks</title>
     <vendor>Piramide</vendor>
     <price>3.89</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>piramide-throat-comfort-20-stuks</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
