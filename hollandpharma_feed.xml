@@ -202,10 +202,10 @@
     <vendor>Barkleys</vendor>
     <price>1.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>barkleys-classic-mints-spearmint-50-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -865,10 +865,10 @@
     <vendor>Yogi Tea</vendor>
     <price>253.30</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-christmas-bio-display-1-displ</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1333,10 +1333,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-new-inspiration-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2229,11 +2229,11 @@
     <title>Sterrenmix zonder munt thee eko bio - 20 Zakjes</title>
     <vendor>Piramide</vendor>
     <price>3.59</price>
-    <available>true</available>
-    <quantity>2</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>piramide-sterrenmix-zonder-munt-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
