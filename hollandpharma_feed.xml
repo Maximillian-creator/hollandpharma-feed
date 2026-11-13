@@ -1060,10 +1060,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-green-balance-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
