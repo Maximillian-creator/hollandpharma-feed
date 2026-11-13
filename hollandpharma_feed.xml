@@ -865,10 +865,10 @@
     <vendor>Yogi Tea</vendor>
     <price>253.30</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-christmas-bio-display-1-displ</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
