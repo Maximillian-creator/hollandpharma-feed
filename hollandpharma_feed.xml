@@ -59,10 +59,10 @@
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-pittig-zout-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -787,10 +787,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-black-chai-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -851,11 +851,11 @@
     <title>Choco chai (los) bio - 90 gram</title>
     <vendor>Yogi Tea</vendor>
     <price>4.99</price>
-    <available>true</available>
-    <quantity>2</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>yogi-tea-choco-chai-los-bio-90-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1034,10 +1034,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-ginger-orange-vanilla-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
