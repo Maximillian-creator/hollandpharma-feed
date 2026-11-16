@@ -1840,35 +1840,6 @@ Afrikaanse kamillebloem (70%), Egyptische kamillebloem (20%) Europese kamilleblo
     <image>https://klant.hollandpharma.nl/photos/661329/photo.jpg</image>
   </product>
   <product>
-    <handle>yogi-tea-choco-chai-los-bio-90-gram</handle>
-    <title>Choco chai (los) bio - 90 gram</title>
-    <vendor>Yogi Tea</vendor>
-    <brand>Yogi Tea</brand>
-    <product_type>Koffie/Thee</product_type>
-    <tags>drempelvuller, hollandpharma, koffie/thee, vat-low</tags>
-    <published>false</published>
-    <btw>L (9%)</btw>
-    <description>&lt;p&gt;Yogi Tea Choco chai (los) bio, 90 gram.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ingrediënten:&lt;/strong&gt; Cacaoschalen* 53%, kaneel*, kardemom*, gember*, geroosterde cichorei*, kruidnagel*, zwarte peper*
-*biologisch&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Gebruik:&lt;/strong&gt; Voeg 2 theelepels (2,6g) toe aan een liter gekookt water en laat dit 10-15 min. doorkoken. Voeg warme melk en een zoetmiddel naar smaak toe.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bewaren:&lt;/strong&gt; Droog en afgesloten bewaren.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In de handel gebracht door:&lt;/strong&gt; YogiTea GmbH&lt;/p&gt;</description>
-    <ingredienten>Cacaoschalen* 53%, kaneel*, kardemom*, gember*, geroosterde cichorei*, kruidnagel*, zwarte peper*
-*biologisch</ingredienten>
-    <bewaren>Droog en afgesloten bewaren.</bewaren>
-    <waarschuwingen>Voeg 2 theelepels (2,6g) toe aan een liter gekookt water en laat dit 10-15 min. doorkoken. Voeg warme melk en een zoetmiddel naar smaak toe.</waarschuwingen>
-    <soort>Thee</soort>
-    <sku>HP-826517</sku>
-    <barcode>4012824529359</barcode>
-    <price>4.99</price>
-    <compare_at_price/>
-    <available>true</available>
-    <variant_title>Default Title</variant_title>
-    <option1>Default Title</option1>
-    <image>https://klant.hollandpharma.nl/photos/826517/photo.jpg</image>
-  </product>
-  <product>
     <handle>yogi-tea-christmas-tea-builtje-bio-17-zakjes</handle>
     <title>Christmas tea builtje bio - 17 Zakjes</title>
     <vendor>Yogi Tea</vendor>
@@ -4752,6 +4723,35 @@ Houd weg van sterke geuren.</bewaren>
     <variant_title>Default Title</variant_title>
     <option1>Default Title</option1>
     <image>https://klant.hollandpharma.nl/photos/844348/photo.jpg</image>
+  </product>
+  <product>
+    <handle>piramide-throat-comfort-20-stuks</handle>
+    <title>Throat Comfort - 20 stuks</title>
+    <vendor>Piramide</vendor>
+    <brand>Piramide</brand>
+    <product_type>Koffie/Thee</product_type>
+    <tags>drempelvuller, hollandpharma, koffie/thee, vat-low</tags>
+    <published>false</published>
+    <btw>L (9%)</btw>
+    <description>&lt;p&gt;Piramide Throat Comfort, 20 stuks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ingrediënten:&lt;/strong&gt; Tijm* (78%), citroengras*, natuurlijk honingaroma* (4%), natuurlijk citroenaroma* (3,5%), citroenschil* (1%).
+*van biologische oorsprong&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gebruik:&lt;/strong&gt; Doe het zakje in een kopje en giet er kokend water bij. Laat circa 3-5 minuten trekken.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bewaren:&lt;/strong&gt; Droog en afgesloten bewaren. Houd weg van sterke geuren.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In de handel gebracht door:&lt;/strong&gt; Wessanen Benelux BV -HE&lt;/p&gt;</description>
+    <ingredienten>Tijm* (78%), citroengras*, natuurlijk honingaroma* (4%), natuurlijk citroenaroma* (3,5%), citroenschil* (1%).
+*van biologische oorsprong</ingredienten>
+    <bewaren>Droog en afgesloten bewaren. Houd weg van sterke geuren.</bewaren>
+    <waarschuwingen>Doe het zakje in een kopje en giet er kokend water bij. Laat circa 3-5 minuten trekken.</waarschuwingen>
+    <soort>Thee</soort>
+    <sku>HP-200898</sku>
+    <barcode>8711812481636</barcode>
+    <price>3.89</price>
+    <compare_at_price/>
+    <available>true</available>
+    <variant_title>Default Title</variant_title>
+    <option1>Default Title</option1>
+    <image>https://klant.hollandpharma.nl/photos/200898/photo.jpg</image>
   </product>
   <product>
     <handle>piramide-tijm-thee-eko-bio-20-zakjes</handle>
