@@ -981,11 +981,11 @@
     <title>Finest selection 6 x 3 stuks bio - 18 Zakjes</title>
     <vendor>Yogi Tea</vendor>
     <price>4.49</price>
-    <available>true</available>
-    <quantity>2</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>yogi-tea-finest-selection-6-x-3-stuks-bio-18-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
