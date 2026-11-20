@@ -800,10 +800,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-breathe-deep-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -933,7 +933,7 @@
     <quantity>0</quantity>
     <handle>yogi-tea-curcuma-orange-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -995,10 +995,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-forever-young-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1190,10 +1190,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-immune-support-bio-17-zk</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1346,10 +1346,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>yogi-tea-new-inspiration-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1450,10 +1450,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-rooibos-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1658,10 +1658,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-blaas-en-nierkruiden-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1710,10 +1710,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-citroenmelisse-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1918,10 +1918,10 @@
     <vendor>Piramide</vendor>
     <price>3.79</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-groene-thee-eko-original-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2009,10 +2009,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-kurkuma-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2152,10 +2152,10 @@
     <vendor>Piramide</vendor>
     <price>3.19</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-rooibos-perzik-sinaasappel-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2165,10 +2165,10 @@
     <vendor>Piramide</vendor>
     <price>4.79</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-rooibos-thee-bio-100-gr</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2191,10 +2191,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-salie-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2243,10 +2243,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-tijm-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2269,10 +2269,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-venkel-thee-eko-bio-20-zk</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
