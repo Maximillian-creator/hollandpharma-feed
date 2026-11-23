@@ -87,6 +87,21 @@ def test_witte_lijst_vormen(tmp_path):
         hp.lees_witte_lijst(str(pad))
 
 
+def test_witte_lijst_bijwerken_alleen_in_de_update_feed(tmp_path):
+    """23-11: Nutribites staat al in de winkel (SKU NB180xxx). De add-feed zou op SKU HP-… niets
+    vinden en 15 dubbelen aanmaken; daarom 'bijwerken:' = alleen de update-feed."""
+    pad = tmp_path / "wl.txt"
+    pad.write_text("merk: Pukka\nbijwerken: Nutribites\n-1\n", encoding="utf-8")
+    assert hp.lees_witte_lijst(str(pad)) == (["Pukka"], [], {"1"})
+    assert hp.lees_witte_lijst(str(pad), bijwerken=True) == (["Pukka", "Nutribites"], [], {"1"})
+    pad.write_text("merk: Nutribites\nbijwerken: Nutribites\n", encoding="utf-8")
+    import pytest
+    with pytest.raises(SystemExit):
+        hp.lees_witte_lijst(str(pad))
+    merken, _, _ = hp.lees_witte_lijst(os.path.join(HIER, "witte_lijst.txt"), bijwerken=True)
+    assert merken[-1] == "Nutribites"
+
+
 def test_zoekpagina():
     with open(os.path.join(HIER, "testdata", "zoek_pukka_p1.html"), "rb") as f:
         tot, ids = hp.lees_zoekpagina(hp.decodeer(f.read()))

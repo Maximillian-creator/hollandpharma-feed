@@ -8,6 +8,14 @@ winkel in Beverwijk) als **drempelvullers** in de webshop. Er staat alleen in wa
 - Klepper&Klepper en Barkleys (snoep).
 - Pukka, Yogi Tea en Piramide (thee).
 
+**Nutribites (23-11):** `bijwerken: Nutribites` = alleen in de **update-feed**. De 15 producten
+die Holland Pharma voert staan al in de winkel met SKU `NB180xxx`; de add-feed zou op `HP-…` niets
+vinden en dubbelen aanmaken. Stock Sync koppelt ze op **barcode** (EAN). Gecontroleerd op 23-11:
+alle 168 bestaande HP-producten hebben in de winkel dezelfde barcode als de feed, en geen van de
+199 EAN's staat op meer dan één winkelvariant. 11 Nutribites-producten in de winkel voert Holland
+Pharma niet (Algenolie, IJzer, Magnesium Citraat, Multivitamine Vrouw, Nachtrust, Visolie,
+Vitamine C + 4 concepten); die blijven zonder feed.
+
 Een `merk:`-regel wordt elke run uitgevouwen via het merkfilter van de zoekpagina: 25 per
 pagina, `&page=N`, uitgelogd leesbaar. Een nieuw product van dat merk komt dus vanzelf mee.
 Met `-artikelnr` sluit je een artikel uit.
@@ -85,7 +93,7 @@ Een product **zonder ingrediëntenlijst komt niet in de add-feed**.
 
 ## Stock Sync
 
-- **Update**: koppel op SKU (of barcode) en map `price`, `available` en `quantity`.
+- **Update**: koppel op **barcode** (sinds 23-11, voor Nutribites) en map alleen `price`, `available` en `quantity` (niet `title`: de Nutribites-titels in de winkel zijn anders).
 - **Add**: kies "Add products", parent node `products.product[*]`, **variant-node leeg** (de feed is plat, één regel per product). Product-identificeerder `sku`, variantgroep `handle`, optie 1 `option1`. Map geen voorraad, zoals bij Deltastar.
   Optienaam 1 = **Title** (anders toont de winkelwagen "Inhoud: Default Title"). Metafield `custom.soort` ← `soort` (Thee/Snoep, filter op Kleine extra's).
 

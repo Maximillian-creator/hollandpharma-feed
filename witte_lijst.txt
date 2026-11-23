@@ -4,6 +4,8 @@
 #                      (zoekpagina → Uitgebreid zoeken → Merk). Nieuwe producten komen vanzelf mee.
 #   932561             één los artikel
 #   -290647            dit artikel nooit, ook niet via een merk
+#   bijwerken: Merk    het hele merk, maar alleen prijs + voorraad bijwerken (update-feed);
+#                      voor merken die al in de winkel staan, zodat de add-feed geen dubbelen maakt
 #
 # Alles tot EUR 15 adviesprijs krijgt de tag `drempelvuller` (winkelwagen); duurder
 # (cadeauverpakkingen) komt wel in de winkel, niet in de vuller. Niet leverbaar = nog niet
@@ -17,6 +19,10 @@ merk: Barkleys
 merk: Pukka
 merk: Yogi Tea
 merk: Piramide
+
+# Supplementen die al in de winkel staan (23-11-2026, Max: "Nutribites via Holland Pharma").
+# 15 van de 17 staan in de winkel met SKU NB180xxx; Stock Sync koppelt ze op barcode (EAN).
+bijwerken: Nutribites
 
 # Uitgesloten
 -289750  # Yogi Tea Christmas calendar 2025 — verouderd (02-11-2026)

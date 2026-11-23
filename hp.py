@@ -54,14 +54,18 @@ def decodeer(ruw: bytes) -> str:
 
 # ── lezen ────────────────────────────────────────────────────────────────────
 
-def lees_witte_lijst(pad: str = WITTE_LIJST) -> tuple[list[str], list[str], set[str]]:
+def lees_witte_lijst(pad: str = WITTE_LIJST, bijwerken: bool = False) -> tuple[list[str], list[str], set[str]]:
     """(merken, losse artikelnummers, uitgesloten artikelnummers); alles na # is commentaar.
 
-        merk: Yogi Tea     → het hele merk, precies zoals in de merkenlijst van Holland Pharma
-        932561             → één artikel
-        -290647            → dit artikel nooit, ook niet via een merk
+        merk: Yogi Tea       → het hele merk, precies zoals in de merkenlijst van Holland Pharma
+        bijwerken: Nutribites → het hele merk, maar ALLEEN in de update-feed (bijwerken=True);
+                               de producten staan al in de winkel met een eigen SKU, dus de
+                               add-feed zou dubbelen aanmaken (23-11-2026)
+        932561               → één artikel
+        -290647              → dit artikel nooit, ook niet via een merk
     """
     merken, los, weg = [], [], set()
+    alle_merken = []
     with open(pad, encoding="utf-8") as f:
         for regel in f:
             r = regel.split("#", 1)[0].strip()
@@ -69,13 +73,18 @@ def lees_witte_lijst(pad: str = WITTE_LIJST) -> tuple[list[str], list[str], set[
                 continue
             if r.lower().startswith("merk:"):
                 merken.append(r[5:].strip())
+                alle_merken.append(merken[-1])
+            elif r.lower().startswith("bijwerken:"):
+                alle_merken.append(r[10:].strip())
+                if bijwerken:
+                    merken.append(alle_merken[-1])
             elif r.startswith("-") and r[1:].strip().isdigit():
                 weg.add(r[1:].strip())
             elif r.isdigit():
                 los.append(r)
             else:
                 raise SystemExit(f"STOP: '{r}' in {pad} is geen artikelnummer of 'merk: …'-regel.")
-    if len(los) != len(set(los)) or len(merken) != len(set(merken)):
+    if len(los) != len(set(los)) or len(alle_merken) != len(set(alle_merken)):
         raise SystemExit(f"STOP: dubbele regel in {pad}.")
     return merken, los, weg
 
@@ -112,9 +121,10 @@ def zoek_merk(s, merk: str) -> list[str]:
     return alles
 
 
-def artikelen(s, pad: str = WITTE_LIJST) -> tuple[list[str], dict[str, str]]:
-    """De witte lijst uitgevouwen: (artikelnummers, {artikelnr: merk zoals in de lijst})."""
-    merken, los, weg = lees_witte_lijst(pad)
+def artikelen(s, pad: str = WITTE_LIJST, bijwerken: bool = False) -> tuple[list[str], dict[str, str]]:
+    """De witte lijst uitgevouwen: (artikelnummers, {artikelnr: merk zoals in de lijst}).
+    `bijwerken=True` (update-feed) neemt ook de `bijwerken:`-merken mee."""
+    merken, los, weg = lees_witte_lijst(pad, bijwerken)
     uit, bron = [], {}
     for merk in merken:
         ids = zoek_merk(s, merk)
