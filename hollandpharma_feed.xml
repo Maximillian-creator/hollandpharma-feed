@@ -257,7 +257,7 @@
     <quantity>0</quantity>
     <handle>barkleys-liquorice-pellets-mint-coated-18-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -787,10 +787,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-black-chai-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -865,10 +865,10 @@
     <vendor>Yogi Tea</vendor>
     <price>253.30</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-christmas-bio-display-1-displ</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1203,10 +1203,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-inner-harmony-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1255,10 +1255,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>yogi-tea-lime-mint-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2009,10 +2009,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>piramide-kurkuma-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2365,5 +2365,226 @@
     <tags>vat-low</tags>
     <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
+  </product>
+  <product>
+    <sku>HP-916885</sku>
+    <barcode>8720892089892</barcode>
+    <title>Ashwagandha - 60 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>20.00</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>nutribites-ashwagandha-60-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916884</sku>
+    <barcode>8720892089922</barcode>
+    <title>Calcium+ - 60 Tabletten</title>
+    <vendor>Nutribites</vendor>
+    <price>22.95</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>nutribites-calcium-60-tabletten</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-289690</sku>
+    <barcode>8721082492355</barcode>
+    <title>Clean creatine - 500 gram</title>
+    <vendor>Nutribites</vendor>
+    <price>18.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-clean-creatine-500-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916881</sku>
+    <barcode>8720892089991</barcode>
+    <title>Collageen framboos - 360 gram</title>
+    <vendor>Nutribites</vendor>
+    <price>35.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-collageen-framboos-360-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916880</sku>
+    <barcode>8720892283900</barcode>
+    <title>Collageen naturel - 360 gram</title>
+    <vendor>Nutribites</vendor>
+    <price>35.00</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>nutribites-collageen-naturel-360-gram</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916875</sku>
+    <barcode>8720892089809</barcode>
+    <title>Green juice - 300 gr</title>
+    <vendor>Nutribites</vendor>
+    <price>47.00</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>nutribites-green-juice-300-gr</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916897</sku>
+    <barcode>8721082492218</barcode>
+    <title>Groene thee - 60 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>18.00</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>nutribites-groene-thee-60-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916888</sku>
+    <barcode>8720892089816</barcode>
+    <title>Krillolie - 60 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>26.00</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>nutribites-krillolie-60-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916889</sku>
+    <barcode>8720892089823</barcode>
+    <title>Kurkuma C3 - 30 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>22.00</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>nutribites-kurkuma-c3-30-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916896</sku>
+    <barcode>8721082492201</barcode>
+    <title>Magnesium nacht - 120 Tabletten</title>
+    <vendor>Nutribites</vendor>
+    <price>26.00</price>
+    <available>true</available>
+    <quantity>5</quantity>
+    <handle>nutribites-magnesium-nacht-120-tabletten</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916899</sku>
+    <barcode>8721082492195</barcode>
+    <title>Multivitamine overgang - 60 Vegetarische capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>28.00</price>
+    <available>true</available>
+    <quantity>2</quantity>
+    <handle>nutribites-multivitamine-overgang-60-vegetarische-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916902</sku>
+    <barcode>8721082492164</barcode>
+    <title>Multivitamine zwanger - 60 Vegetarische capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>28.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-multivitamine-zwanger-60-vegetarische-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916893</sku>
+    <barcode>8720892089830</barcode>
+    <title>Relax formule - 60 Vegetarische capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>22.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-relax-formule-60-vegetarische-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916883</sku>
+    <barcode>8720892283917</barcode>
+    <title>Vitamine B-complex - 60 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>24.00</price>
+    <available>true</available>
+    <quantity>20</quantity>
+    <handle>nutribites-vitamine-b-complex-60-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916879</sku>
+    <barcode>8720892089960</barcode>
+    <title>Vitamine D3 - 200 sft</title>
+    <vendor>Nutribites</vendor>
+    <price>19.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-vitamine-d3-200-sft</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-289689</sku>
+    <barcode>8721082492348</barcode>
+    <title>Whey protein choco - 780 gr</title>
+    <vendor>Nutribites</vendor>
+    <price>35.00</price>
+    <available>false</available>
+    <quantity>0</quantity>
+    <handle>nutribites-whey-protein-choco-780-gr</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <soort/>
+  </product>
+  <product>
+    <sku>HP-916882</sku>
+    <barcode>8720892089984</barcode>
+    <title>Zink methionine - 60 Capsules</title>
+    <vendor>Nutribites</vendor>
+    <price>14.00</price>
+    <available>true</available>
+    <quantity>10</quantity>
+    <handle>nutribites-zink-methionine-60-capsules</handle>
+    <tags>vat-low</tags>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <soort/>
   </product>
 </products>
