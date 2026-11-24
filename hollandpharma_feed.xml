@@ -7,10 +7,10 @@
     <vendor>Klepper &amp; Klepper</vendor>
     <price>4.25</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>klepper-klepper-de-beste-drop-ooit-honing-200-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -257,7 +257,7 @@
     <quantity>0</quantity>
     <handle>barkleys-liquorice-pellets-mint-coated-18-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -279,11 +279,11 @@
     <title>Liquorice pellets salmiak - 20 gram</title>
     <vendor>Barkleys</vendor>
     <price>1.52</price>
-    <available>true</available>
-    <quantity>5</quantity>
+    <available>false</available>
+    <quantity>0</quantity>
     <handle>barkleys-liquorice-pellets-salmiak-20-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -722,10 +722,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-ashwagandha-balance-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -748,10 +748,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-bedtime-rooibos-vanille-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -761,10 +761,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-belly-comfort-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -800,10 +800,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-breathe-deep-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -851,11 +851,11 @@
     <title>Choco chai (los) bio - 90 gram</title>
     <vendor>Yogi Tea</vendor>
     <price>4.99</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>yogi-tea-choco-chai-los-bio-90-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -865,10 +865,10 @@
     <vendor>Yogi Tea</vendor>
     <price>253.30</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>yogi-tea-christmas-bio-display-1-displ</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -904,10 +904,10 @@
     <vendor>Yogi Tea</vendor>
     <price>4.99</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-classic-chai-tea-los-bio-90-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -917,10 +917,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-curcuma-turmeric-chai-tea-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -929,11 +929,11 @@
     <title>Curcuma orange bio - 17 Zakjes</title>
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>yogi-tea-curcuma-orange-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -969,10 +969,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-echinacea-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -981,11 +981,11 @@
     <title>Finest selection 6 x 3 stuks bio - 18 Zakjes</title>
     <vendor>Yogi Tea</vendor>
     <price>4.49</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>yogi-tea-finest-selection-6-x-3-stuks-bio-18-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -995,10 +995,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-forever-young-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1033,11 +1033,11 @@
     <title>Ginger orange vanilla bio - 17 Zakjes</title>
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>yogi-tea-ginger-orange-vanilla-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1060,10 +1060,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-green-balance-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1164,10 +1164,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-heartwarming-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1190,10 +1190,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-immune-support-bio-17-zk</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1203,10 +1203,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-inner-harmony-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1255,10 +1255,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-lime-mint-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1346,10 +1346,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-new-inspiration-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1358,11 +1358,11 @@
     <title>New inspiration bio display - 1 Display</title>
     <vendor>Yogi Tea</vendor>
     <price>255.49</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>10</quantity>
     <handle>yogi-tea-new-inspiration-bio-display-1-display</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>geen voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1385,10 +1385,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-ph-balance-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1450,10 +1450,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-rooibos-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1541,10 +1541,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>yogi-tea-tulsi-relax-thee-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2178,10 +2178,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>piramide-rozenbottel-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2451,10 +2451,10 @@
     <vendor>Nutribites</vendor>
     <price>26.00</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>5</quantity>
     <handle>nutribites-krillolie-60-capsules</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort/>
   </product>
   <product>
@@ -2568,10 +2568,10 @@
     <vendor>Nutribites</vendor>
     <price>14.00</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>5</quantity>
     <handle>nutribites-zink-methionine-60-capsules</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
     <soort/>
   </product>
 </products>
