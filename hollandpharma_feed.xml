@@ -474,11 +474,11 @@
     <title>Herbal favorites kilner bio - 30 Zakjes</title>
     <vendor>Pukka</vendor>
     <price>17.99</price>
-    <available>false</available>
-    <quantity>0</quantity>
+    <available>true</available>
+    <quantity>20</quantity>
     <handle>pukka-herbal-favorites-kilner-bio-30-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -579,10 +579,10 @@
     <vendor>Pukka</vendor>
     <price>5.79</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>pukka-original-chai-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -787,10 +787,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>yogi-tea-black-chai-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -813,10 +813,10 @@
     <vendor>Yogi Tea</vendor>
     <price>3.99</price>
     <available>true</available>
-    <quantity>20</quantity>
+    <quantity>10</quantity>
     <handle>yogi-tea-bright-mood-bio-17-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1697,10 +1697,10 @@
     <vendor>Piramide</vendor>
     <price>3.89</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-calming-spirit-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -1827,10 +1827,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-frisse-start-zonder-munt-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2009,10 +2009,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-kurkuma-thee-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2178,10 +2178,10 @@
     <vendor>Piramide</vendor>
     <price>3.39</price>
     <available>true</available>
-    <quantity>2</quantity>
+    <quantity>20</quantity>
     <handle>piramide-rozenbottel-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2204,10 +2204,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
     <handle>piramide-sterrenmix-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voldoende voorraad</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
@@ -2217,10 +2217,10 @@
     <vendor>Piramide</vendor>
     <price>3.59</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>20</quantity>
     <handle>piramide-sterrenmix-zonder-munt-thee-eko-bio-20-zakjes</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>ruim voldoende voorraad</beschikbaarheid>
     <soort>Thee</soort>
   </product>
   <product>
