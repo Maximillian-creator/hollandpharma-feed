@@ -257,7 +257,7 @@
     <quantity>0</quantity>
     <handle>barkleys-liquorice-pellets-mint-coated-18-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>zeer beperkte voorraad</beschikbaarheid>
+    <beschikbaarheid>geen voorraad</beschikbaarheid>
     <soort>Snoep</soort>
   </product>
   <product>
@@ -2412,10 +2412,10 @@
     <vendor>Nutribites</vendor>
     <price>35.00</price>
     <available>true</available>
-    <quantity>5</quantity>
+    <quantity>2</quantity>
     <handle>nutribites-collageen-naturel-360-gram</handle>
     <tags>vat-low</tags>
-    <beschikbaarheid>voorraad aanwezig</beschikbaarheid>
+    <beschikbaarheid>beperkte voorraad</beschikbaarheid>
     <soort/>
   </product>
   <product>
